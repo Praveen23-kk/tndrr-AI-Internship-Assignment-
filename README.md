@@ -4,7 +4,7 @@ Three Google Colab notebooks, one per task. Each is written to run top to bottom
  
 | Task | Notebook | What it does |
 |---|---|---|
-| 1. Fine-tuning | [`task1_lora_finetune.ipynb`](task1_lora_finetune.ipynb) | LoRA-fine-tunes Qwen2.5-0.5B-Instruct to label a tweet with one of six emotions, and compares base and fine-tuned accuracy on about 300 held-out tweets. |
+| 1. Fine-tuning | [`task1_lora_finetune.ipynb`](task1_lora_finetune (1).ipynb) | LoRA-fine-tunes Qwen2.5-0.5B-Instruct to label a tweet with one of six emotions, and compares base and fine-tuned accuracy on about 300 held-out tweets. |
 | 2. Retrieval (RAG) | [`task2_rag_from_scratch.ipynb`](task2_rag_from_scratch.ipynb) | Answers questions about the Llama 2 paper (77 pages) using only an embedding model, NumPy and an LLM, and compares two chunk sizes by recall. |
 | 3. Running a model locally | [`task3_ollama_local.ipynb`](task3_ollama_local.ipynb) | Runs Qwen2.5-3B-Instruct in Ollama as fp16 and as 4-bit, compares speed, memory and answers on the same 10 prompts, and sizes a server for 20 users. |
  
